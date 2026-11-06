@@ -1,0 +1,26 @@
+﻿id,name,course,program,source_group_number,data_status
+1,КІ-75 (тест),1,Комп’ютерна інженерія,75,synthetic_group_placeholder
+2,ЕА-76 (тест),1,Електроніка,76,synthetic_group_placeholder
+3,РЗ-77 (тест),1,Мережеві системи,77,synthetic_group_placeholder
+4,МЗ-78 (тест),1,Інфокомунікації,78,synthetic_group_placeholder
+5,КІ-79 (тест),2,Комп’ютерна інженерія,79,synthetic_group_placeholder
+6,ЕА-80 (тест),2,Електроніка,80,synthetic_group_placeholder
+7,РЗ-81 (тест),2,Мережеві системи,81,synthetic_group_placeholder
+8,МЗ-82 (тест),2,Інфокомунікації,82,synthetic_group_placeholder
+9,КІ-83 (тест),3,Комп’ютерна інженерія,83,synthetic_group_placeholder
+10,ЕА-84 (тест),3,Електроніка,84,synthetic_group_placeholder
+11,РЗ-85 (тест),3,Мережеві системи,85,synthetic_group_placeholder
+12,МЗ-86 (тест),3,Інфокомунікації,86,synthetic_group_placeholder
+13,КІ-87 (тест),4,Комп’ютерна інженерія,87,synthetic_group_placeholder
+14,ЕА-88 (тест),4,Електроніка,88,synthetic_group_placeholder
+15,РЗ-89 (тест),4,Мережеві системи,89,synthetic_group_placeholder
+16,МЗ-90 (тест),4,Інфокомунікації,90,synthetic_group_placeholder
+17,КІ-91 (тест),1,Комп’ютерна інженерія,91,synthetic_group_placeholder
+18,ЕА-92 (тест),1,Електроніка,92,synthetic_group_placeholder
+19,РЗ-93 (тест),1,Мережеві системи,93,synthetic_group_placeholder
+20,МЗ-94 (тест),1,Інфокомунікації,94,synthetic_group_placeholder
+21,КІ-95 (тест),2,Комп’ютерна інженерія,95,synthetic_group_placeholder
+22,ЕА-96 (тест),2,Електроніка,96,synthetic_group_placeholder
+23,РЗ-97 (тест),2,Мережеві системи,97,synthetic_group_placeholder
+24,МЗ-98 (тест),2,Інфокомунікації,98,synthetic_group_placeholder
+25,КІ-99 (тест),3,Комп’ютерна інженерія,99,synthetic_group_placeholder

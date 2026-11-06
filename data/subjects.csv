@@ -1,0 +1,25 @@
+﻿id,name,program,allowed_location_ids,data_status
+1,Українська мова,common,1,synthetic_subject_assignment
+2,Історія України,common,1,synthetic_subject_assignment
+3,Англійська мова,common,1,synthetic_subject_assignment
+4,Математика,common,1,synthetic_subject_assignment
+5,Фізика,common,1,synthetic_subject_assignment
+6,Фізична культура,sport,2,synthetic_subject_assignment
+7,Інформатика,common,1,synthetic_subject_assignment
+8,Основи охорони праці,common,1,synthetic_subject_assignment
+9,Програмування,КІ,1,synthetic_subject_assignment
+10,Комп’ютерні мережі,КІ,1,synthetic_subject_assignment
+11,Операційні системи,КІ,1,synthetic_subject_assignment
+12,Архітектура комп’ютерів,КІ,1,synthetic_subject_assignment
+13,Електроніка,ЕА,1,synthetic_subject_assignment
+14,Схемотехніка,ЕА,1,synthetic_subject_assignment
+15,Мікропроцесорна техніка,ЕА,1,synthetic_subject_assignment
+16,Електровимірювання,ЕА,1,synthetic_subject_assignment
+17,Адміністрування мереж,РЗ,1,synthetic_subject_assignment
+18,Кібербезпека,РЗ,1,synthetic_subject_assignment
+19,Телекомунікаційні системи,РЗ,1,synthetic_subject_assignment
+20,Маршрутизація,РЗ,1,synthetic_subject_assignment
+21,Основи зв’язку,МЗ,1,synthetic_subject_assignment
+22,Цифрові комунікації,МЗ,1,synthetic_subject_assignment
+23,Радіотехнічні системи,МЗ,1,synthetic_subject_assignment
+24,Інформаційні технології,МЗ,1,synthetic_subject_assignment

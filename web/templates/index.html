@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ДФКР — Генератор расписания</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="/static/script.js" defer></script>
+</head>
+<body>
+<a href="/admin">Администрирование данных →</a>
+    <header>
+        <h1>College Schedule</h1>
+        <p>Автоматическая генерация расписания ДФКР</p>
+    </header>
+
+    <main>
+        <section class="panel">
+            <h2>Генератор расписания</h2>
+
+            <label for="groupLimit">Количество групп</label>
+            <select id="groupLimit">
+                <option value="3">3 группы</option>
+                <option value="5" selected>5 групп</option>
+                <option value="10">10 групп</option>
+                <option value="20">20 групп</option>
+                <option value="25">25 групп</option>
+            </select>
+
+            <label class="checkbox">
+                <input type="checkbox" id="optimize" checked>
+                Оптимизировать расписание
+            </label>
+
+            <button id="generateBtn">Сгенерировать расписание</button>
+            <p id="status"></p>
+        </section>
+
+        <section class="panel" id="results" hidden>
+<p>Окна групп после: <strong id="groupWindowsAfter">—</strong> · Оптимизация: <strong id="optimizationSeconds">—</strong> сек.</p>
+            <h2>Результаты генерации</h2>
+
+            <div class="stats">
+                <div>Занятий <strong id="lessonsCount">0</strong></div>
+                <div>Окон до <strong id="windowsBefore">0</strong></div>
+                <div>Окон после <strong id="windowsAfter">0</strong></div>
+                <div>Оценка <strong id="scoreAfter">0</strong></div>
+            </div>
+
+            <div class="schedule-tabs" role="tablist" aria-label="Вид расписания">
+                <button type="button" id="individualTab" role="tab" aria-selected="true" aria-controls="individualPanel">По группе / преподавателю</button>
+                <button type="button" id="overviewTab" role="tab" aria-selected="false" aria-controls="overviewPanel" tabindex="-1">Общее расписание</button>
+            </div>
+
+            <div class="controls">
+                <label id="viewTypeControl">
+                    Просмотр
+                    <select id="viewType">
+                        <option value="group">По группе</option>
+                        <option value="teacher">По преподавателю</option>
+                    </select>
+                </label>
+
+                <label id="entityControl">
+                    Выбрать
+                    <select id="entitySelect"></select>
+                </label>
+
+                <label>
+                    Неделя
+                    <select id="weekSelect">
+                        <option value="A">Числитель</option>
+                        <option value="B">Знаменатель</option>
+                    </select>
+                </label>
+            </div>
+
+            <div id="individualPanel" role="tabpanel" aria-labelledby="individualTab">
+                <div class="table-wrapper">
+                    <table id="scheduleTable"></table>
+                </div>
+            </div>
+
+            <div id="overviewPanel" role="tabpanel" aria-labelledby="overviewTab" hidden>
+                <p class="overview-hint">Все преподаватели · в ячейках — группы. Наведите на группу, чтобы увидеть предмет. МД — методический день.</p>
+                <div class="table-wrapper overview-scroll" tabindex="0" role="region" aria-label="Полная таблица расписания, прокручивается по горизонтали и вертикали">
+                    <table id="overviewTable" class="overview-table"></table>
+                </div>
+            </div>
+
+            <p class="notice">
+                Демонстрационное расписание.
+                Годовая тарификация не подтверждена.
+            </p>
+        </section>
+    </main>
+</body>
+</html>

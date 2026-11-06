@@ -1,0 +1,21 @@
+{
+  "status": "success",
+  "groups": 25,
+  "lessons_count": 784,
+  "optimized": true,
+  "score_before": 952.8,
+  "score_after": 530.8,
+  "windows_before": 42,
+  "windows_after": 10,
+  "group_windows_before": 25,
+  "group_windows_after": 11,
+  "optimization_seconds": 89.51,
+  "workload_status": "within_configured_limits",
+  "score_details": {
+    "teacher_windows": 100,
+    "group_windows": 110,
+    "group_load": 108.79999999999995,
+    "single_lessons": 156,
+    "late_start": 56
+  }
+}

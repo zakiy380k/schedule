@@ -1,0 +1,10 @@
+{
+  "academic_year": "2026/2027 (test)",
+  "week_a_count": 17,
+  "week_b_count": 17,
+  "lesson_duration_minutes": 80,
+  "tariff_academic_hours_per_lesson": 2,
+  "tariff_coefficient_status": "test_assumption_verify_with_college",
+  "annual_other_hours_included": false,
+  "data_status": "synthetic_calendar_not_official"
+}
